@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+    padding: 2em;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    color: aqua;
+}
+
+h2{
+    color: aquamarine;
+}

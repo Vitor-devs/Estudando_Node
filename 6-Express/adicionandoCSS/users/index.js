@@ -3,7 +3,7 @@ const router = express.Router()
 const path = require('path')
 const basePath = path.join(__dirname, '../templates')
 
-
+// pegar como obj
 router.use(
     express.urlencoded({
         extended: true,
