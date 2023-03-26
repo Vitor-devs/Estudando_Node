@@ -1,0 +1,11 @@
+<h1>Info do livro</h1>
+<div id="book-page">
+    <h1>{{dadosLivro.titulo}}</h1>
+    <p>Esse livro tem {{dadosLivro.pageqty}} páginas</p>
+
+    <a href="/books">Voltar</a>
+    <form action="/books/remove/{{dadosLivro.id}}" method="POST" class="form">
+        <input type="submit" value="Deletar">
+    </form>
+
+</div>

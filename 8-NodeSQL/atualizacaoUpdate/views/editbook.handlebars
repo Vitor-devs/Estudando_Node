@@ -1,0 +1,15 @@
+<h1>Edite de inserção de Dados e mandando para o SQL</h1>
+
+<form class="form" action="/books/updatebook" method="POST" >
+    <input type="hidden" name="id" value="{{book.id}}">
+    <div class="form-control">
+        <label for="title">Título</label>
+        <input type="text" name="title" placeholder="Digite o titulo do seu livro" value="{{book.titulo}}">
+    </div>
+    <div class="form-control">
+        <label for="pagesqty">Quantidade de pagínas</label>
+        <input type="number" name="pagesqty" placeholder="Digite total de páginas" value="{{book.pageqty}}">
+    </div>
+    <input type="submit" value="Editar">
+    
+</form>
